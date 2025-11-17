@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contact_graspnet"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "trimesh",
+    "opencv-python",
+    "tensorflow",
+    "matplotlib",
+    "mayavi"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["contact_graspnet*"]  # We will rename the main folder to this
+exclude = ["checkpoints", "test_data", "tools", "docs", "examples"]
+
+[tool.setuptools.package-data]
+"contact_graspnet" = [
+    "gripper_models/**/*",
+    "gripper_control_points/**/*",
+    "uniform_quaternions/**/*"
+]

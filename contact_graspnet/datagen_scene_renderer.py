@@ -12,7 +12,7 @@ import multiprocessing as mp
 import trimesh
 import trimesh.transformations as tra
 
-from mesh_utils import Object
+from .mesh_utils import Object
 
 class SceneRenderer:
     import pyrender
