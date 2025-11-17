@@ -13,7 +13,7 @@ dependencies = [
     "opencv-python",
     "tensorflow",
     "matplotlib",
-    "mayavi"
+    "open3d"
 ]
 
 [tool.setuptools.packages.find]
