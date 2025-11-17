@@ -13,7 +13,9 @@ dependencies = [
     "opencv-python",
     "tensorflow",
     "matplotlib",
-    "open3d"
+    "open3d",
+    "provider",
+    "pyrender"
 ]
 
 [tool.setuptools.packages.find]
