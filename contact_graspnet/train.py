@@ -22,9 +22,9 @@ sys.path.append(os.path.join(BASE_DIR, 'Pointnet_Pointnet2_pytorch'))
 
 import config_utils
 from acronym_dataloader import AcryonymDataset
-from contact_graspnet_pytorch.contact_graspnet import ContactGraspnet, ContactGraspnetLoss
-from contact_graspnet_pytorch import utils
-from contact_graspnet_pytorch.checkpoints import CheckpointIO 
+from contact_graspnet.contact_graspnet import ContactGraspnet, ContactGraspnetLoss
+from contact_graspnet import utils
+from contact_graspnet.checkpoints import CheckpointIO 
 
 def train(global_config, log_dir):
     """

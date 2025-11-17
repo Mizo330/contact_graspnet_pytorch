@@ -2,12 +2,12 @@ import glob
 import os
 
 import torch
-from contact_graspnet_pytorch.contact_grasp_estimator_pytorch import GraspEstimator
-from contact_graspnet_pytorch import config_utils
+from contact_graspnet.contact_grasp_estimator_pytorch import GraspEstimator
+from contact_graspnet import config_utils
 
-from contact_graspnet_pytorch.visualization_utils_o3d import visualize_grasps, show_image
-from contact_graspnet_pytorch.checkpoints import CheckpointIO 
-# from contact_graspnet_pytorch.visualization_utils_plotly import show_image
+from contact_graspnet.visualization_utils_o3d import visualize_grasps, show_image
+from contact_graspnet.checkpoints import CheckpointIO 
+# from contact_graspnet.visualization_utils_plotly import show_image
 
 from data import load_available_input_data
 ckpt_dir = 'checkpoints/contact_graspnet'

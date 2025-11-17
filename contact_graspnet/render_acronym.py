@@ -10,8 +10,8 @@ from tqdm import tqdm
 from multiprocessing import Pool, cpu_count, current_process,shared_memory
 
 
-from contact_graspnet_pytorch import config_utils, utils
-from contact_graspnet_pytorch.datagen_scene_renderer import SceneRenderer
+from contact_graspnet import config_utils, utils
+from contact_graspnet.datagen_scene_renderer import SceneRenderer
 
 os.environ['PYOPENGL_PLATFORM'] = 'egl'  # To get pyrender to work 
 

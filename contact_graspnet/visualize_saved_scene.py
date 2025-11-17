@@ -1,6 +1,6 @@
 import open3d as o3d
 import numpy as np
-from contact_graspnet_pytorch.visualization_utils_o3d import visualize_grasps, show_image
+from contact_graspnet.visualization_utils_o3d import visualize_grasps, show_image
 
 data = np.load('results/predictions_7.npz', allow_pickle=True)
 pred_grasps_cam = data['pred_grasps_cam'].item()

@@ -5,8 +5,8 @@ import os
 # os.environ['PYOPENGL_PLATFORM'] = 'egl'  # To get pyrender to work 
 import open3d as o3d
 
-from contact_graspnet_pytorch.acronym_dataloader import AcryonymDataset
-from contact_graspnet_pytorch import config_utils
+from contact_graspnet.acronym_dataloader import AcryonymDataset
+from contact_graspnet import config_utils
 
 workspace_root = './'
 # workspace_root = '../../'
